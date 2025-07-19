@@ -3,6 +3,28 @@ import { ExternalLink, Github, Globe } from 'lucide-react';
 const Projects = () => {
   const projects = [
     {
+      title: "Koko Healthcare eHMS (Enterprise Hospital Management System)",
+      category: "Web Application",
+      description:
+        "A cultural platform for discovering, sharing, and learning African proverbs with rich categorization and daily wisdom updates.",
+      image: "https://kokohealthcare.com/wp-content/uploads/2024/12/hero.png",
+      technologies: ["React", "Nextjs", "Redux Toolkit", "Shadcn", "TypeScript", "TailwindCSS"],
+      features: [
+        "Comprehensive patient management",
+        "Appointment scheduling and reminders",
+        "Electronic medical records (EMR)",
+        "Billing and invoicing system",
+        "Role-based access control for staff",
+        "Real-time notifications and alerts",
+        "Responsive design for mobile and desktop",
+        "Secure data handling and encryption",
+        "Integration with third-party services"
+      ],
+      liveUrl: "https://kokohealthcare.com/",
+      // githubUrl: "#", // Optional: leave as "#" if repo is private
+      icon: Globe
+    },
+    {
       title: "Impactify LMS",
       category: "Web Application",
       description:
@@ -37,7 +59,8 @@ const Projects = () => {
       liveUrl: "https://africanproverbs.com/",
       // githubUrl: "#", // Optional: leave as "#" if repo is private
       icon: Globe
-    }
+    },
+    
   ];
 
   return (
